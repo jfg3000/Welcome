@@ -39,7 +39,7 @@ print(note1)
 note2 = ("This is the first,\nthis is the second\n")
 print(note2)
 
-############### Whitespaces: Strips (CONCATENATION) ##############
+############### Whitespaces: Strips  ##############
 # .strips is a command that removes all unnecessary spaces in code, for example:
 phrase1 = ("jefferson                   ")
 print(phrase1)
@@ -49,6 +49,7 @@ print(phrase2.rstrip())
 # .Rstrip = strips the right side of the string
 # .strip = strips the both sides of the string
 
+#CONCATENATION = the process of joining separate items, such as text strings, lists, or events, end-to-end into a single continuous sequence
 
 #### MCS 102a JULY 17 2026 (DEMO 1)
 
