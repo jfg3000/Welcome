@@ -12,15 +12,15 @@ Late submissions will not be accepted. """
 """ Create variables to store a student's profile information: name (string), age (integer), gpa (float), and is_enrolled
 (boolean). After that, it should be printed as a formatted profile card using these variables, like as presented below. """
 
-print()                             # adds kind of link a space bar for the code to look better in run haha
-print("Student Profile Card")       # Student Profile Card
+print()                             # adds kind of like a space bar for the code to look better in run haha
+print("Student Profile Card")       # prints "Student Profile Card"
 name = "Jefferson Figueroa"
 print(f"Name: {name}")              # prints "Name: Jefferson Figueroa", used f-strings to indicate the said variable (name)
-age = 17                            # used f-strings to incorporate the math things and varibles inside of a text hahaha
+age = 17                            # used f-strings to incorporate other values and varibles inside of just one text 
 print(f"Age: {age}")                # prints "Age: 17", same context for the f-strings as the print(f"Name: {name}") one. 
 gpa = 3.50
 print(f"GPA: {gpa}")                # prints "GPA: 3.5", same context for the f-strings as the print(f"Name: {name}") one. 
-is_enrolled = True
+is_enrolled = True                  # Boolean Value,,
 print(f"Enrolled: {is_enrolled}")   # prints "Enrolled: True", same context for the f-strings as the print(f"Name: {name}") one. 
 print()
 
