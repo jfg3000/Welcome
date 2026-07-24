@@ -24,6 +24,8 @@ is_enrolled = True
 print(f"Enrolled: {is_enrolled}")   # prints "Enrolled: True", same context for the f-strings as the print(f"Name: {name}") one. 
 print()
 
+# Can also do print(f"Name: {name}\nAge: {age}\nGPA: {gpa}\nEnrolled:{is_enrolled}\n") to be more efficient which prints exactly the same output
+
 # Problem 2. Simple Grade Calculator
 """ Create a list called scores containing 5 numeric grades (integers or floats), e.g. [85, 90, 78, 92, 88]. After that, it should:
 1. Calculate the total sum of scores using sum().
@@ -56,7 +58,7 @@ print(firstitem)           # printed "water"
 lastitem = grocery[-1]     # labelled it as "lastitem", printed the LAST item in the list which was "canned goods", used grocery[-1] which counted backwards from the end of the sequence or list
 print(lastitem)            # printed "canned goods", also as to why grocery[-1] is better, its because in using negative indexing, you can print the last item in the list WITHOUT KNOWING THE LENGTH OF THE LIST AND TO BE EFFICIENT
 
-print(f"{grocery[0]}, {grocery[-1]}")   # can also use this, which prints the first and last item in the list in just one line of code, used f-strings to print more than one assigned variable and value
+print(f"{grocery[0]}, {grocery[-1]}")   # printed "water, canned goods" can also use this, which prints the first and last item in the list in just one line of code, used f-strings to print more than one assigned variable and value
 
 grocery.append("vegetables")                    # .append() lets you ADD an item or a value in a list, when you append, the item that you appended ALWAYS appears at the end of the list (unless you use like .insert), i used .append("vegetables"), in which added vegetables to the end of the list.
 grocery.remove("snacks")                        # .remove() lets you REMOVE an item from the list, this is CASE SENSITIVE. i used .remove("snacks"), which removed snacks from the list

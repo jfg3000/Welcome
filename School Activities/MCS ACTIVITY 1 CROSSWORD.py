@@ -24,7 +24,7 @@ DOWN
 14 Statement used to bring in a module like math 6 = IMPORT
 16 Using the equal sign to store a value 10 =  ASSIGNMENT
 17 Whole number data type 7 = INTEGER
-18 Program that translates entire source code before running 8 = TERMINAL
+18 Program that translates entire source code before running 8 = TERMINAL ? ? or compiler yata
 20 High level interpreted language created by Guido van Rossum 6 = PYTHON
 22 Method to remove whitespace from string ends 5 = STRIP
 """
