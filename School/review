@@ -1,0 +1,38 @@
+# REVIEW 
+
+Program = sequence of instructions that can be executed by a computer
+Programming = the process of creating a program or the mental/design of devising instructions to an computer
+
+Programming Language = a formal syntax and grammar that allows humans to communicate with computers through code
+Two Essential Elements of a Programming Language:
+1. Syntax = the formal grammar or structure of the computer or code that forms valid programs
+2. Semantics = the meaning of the code or what does the code want to do when executed
+
+Variable = a named container or an empty data set that is used to store data or info in a program
+Assignment = the process of naming a variable and assigning a value to it
+
+Python = a high-level, interpreted, procedural, object oriented programming language that is used to create programs and applications
+Developed by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in 1989, Inspired by the TV show "Monty Python's Flying Circus"
+
+Classification of Programming Languages:
+1. Classfication by Abstraction: this pertains to how well a language can process instructions versus how humans can communicate with one another
+     Machine Learning = the only programming language that can be executed directly, by binary (0,1's), NO ABSTRACTION 
+    Low Level Language = a programming language that is closer to machine hardware without reaching pure binary, they offer little abstraction
+    High Level Language = a programming language that has strong abstraction
+
+2. Classification by Programming Paradigm: this describes the UNDERLYING STYLE or approach a language uses to solve a problem
+    Imperative/Declarative Language = a programming language that uses a sequences of steps in order to reach a result
+    Declarative Language = a programming language where the user describes the outcome instead of steps, this features without step-by-step instructions
+
+3. Classification by Translation/Execution Model:
+    Interpreted Language = a programming language that is executed line by line, this is slower than compiled languages, but it is easier to debug and test
+    Compiled Language = a programming language where the code is put into a compiler and executed all at once, this is faster than interpreted languages, but it is harder to debug and test
+
+4. Classification by Purpose/Intended Use: this describes the intended use of a programming language
+    General-purpose Language (GPL) = designed to handle a wide variety of tasks across different domains
+    Domain-specific Language (DSL) = built for narrow, specific type of domains, often specializes in syntax and features
+
+Function: A function is where you input the variable itself inside of a parenthesis
+Method: A Method is where you attach the variable itself with a dot operator.and
+
+
