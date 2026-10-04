@@ -17,7 +17,7 @@ And Third, this serves as a documentation of the program"""
 # All decisions should be well labelled
  
 # Flowchart Standard Symbols:
-1. Terminal - Resembles the start and the end of the flowchart, should only be TWO.
+"""1. Terminal - Resembles the start and the end of the flowchart, should only be TWO.
 2. Input/Output - shows any input or output operations. (PARALLELOGRAM SHAPE) (input num1, num2)
 3. Processing Symbol - denotes to show any computer processing (RECTANGLE SHAPE) (ex. sum = num1 + num2)
 4. Predefined Process - shows any process not specially defined in the flowchart 
@@ -26,6 +26,7 @@ And Third, this serves as a documentation of the program"""
 7. Document Input/Output - same as "Input/Output" but everything that you do is either coming from a document or you are putting it in a document
 8. Decision - used to show any point in a process where a decision must be made (Usually used for conditional statements)
 9. On-page connector - used to connect parts in the flowchart continued on the same page (KIND OF LIKE A PORTAL) (denoted by a circle).
-10. Off-page connector -  used to connect parts in the flowchart continued on another page (denoted by a diamond shape thing).
+10. Off-page connector -  used to connect parts in the flowchart continued on another page (denoted by a diamond shape thing)."""
 
 # 2. System flowchart = collection of program flowcharts, contains solution of many problems together that are closely related to each other and interact with each other to achieve a goal
+notdone
