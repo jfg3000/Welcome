@@ -1,31 +1,55 @@
 # Activity on Python Data Structures Lists, Tuples, Dictionaries and Sets
-
-
-
-# 1.) Make several dictionaries, where the name of each dictionary is the name of a pet. In each dictionary, include the kind of animal and the owner's name. Store these dictionaries in a list called pets. 
-# Next, loop through your list and as you do, print everything you know about each pet.
-
+print()
+# Question No. 1.)   
 dog = {
-    "kind": "Bulldog", "owner": "Jeff"}
+    "name": "John Paul",
+    "kind": "Bulldog", 
+    "owner": "Jeff"
+}
 cat = {
-    "kind": "Persian", "owner": "Prince"}
+    "name": "Cali",
+    "kind": "Persian", 
+    "owner": "Prince"
+}
 bird = {
-    "kind": "Parrot", "owner": "Sir Arcel"}
+    "name": "Jerry",
+    "kind": "Parrot", 
+    "owner": "Sir Arcel"
+}
 
 pets = [dog, cat, bird]
 
 for pet in pets:
-    print(f"Kind: {pet['kind']}, Owner: {pet['owner']}")
-
-# 2.) Make a dictionary called favorite_places. Think of three names to use as keys in the dictionary and store one to three favorite places for each person. 
-# To make this exercise a bit more interesting, ask some friends to name a few of their favorite places. Loop through the dictionary and print each person's name and their favorite places."""
+    print(f"The owner of the {pet['name']}, a {pet['kind']}, is {pet['owner']}.")
 
 
+# Question No. 2.)
+print()
+favorite_places = {
+    "Prince": ["Manila", "Baguio", "Boracay"],
+    "jeff": ["Cebu", "Palawan", "Davao"],
+    "marcuis": ["Baguio", "Tagaytay", "Manila"]
+}
+
+for person, places in favorite_places.items():
+    print(person + "' favorite places are:")
+    for place in places:
+        print("-", place)
 
 
-# 3.) Make a dictionary called cities. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each city and include the country that the city is in, 
-# its approximate population, and one fact about that city. The keys for each city's dictionary should be something like country, population, and fact. Print the name of each city and all the information you have stored about it"""
-
+# Question No. 3.)  
+print()
 cities = {
-
+    "Manila": {"country": "Philippines", 
+               "population": 1902520, 
+               "fact": "Manila is the capital of the Philippines"},
+    "San Jose Del Monte": {"country": "Philippines", 
+                "population": 685688, 
+                "fact": "San Jose Del Monte is a city in the province of Bulacan"},
+    "Quezon City": {"country": "Philippines", 
+                    "population": 3000000, "fact": 
+                    "Quezon City was founded by Manuel L. Quezon"}
 } 
+for city, facts in cities.items():
+        print(f"{city} is a city in the {facts['country']} that has a population of {facts['population']}. \nFACT: {facts['fact']}." + "\n")
+
