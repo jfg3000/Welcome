@@ -1,0 +1,20 @@
+"""
+available_toppings = ["sprinkle", "pepper", "pineapple", "cheese", "barbeqcue", "olives"]   # IF
+requested_toppings = ["pater", "pepper", "water", "cheese"]   # FOR
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"{requested_topping} is not available.")
+
+print("Finished making your order!") """
+
+
+user_input = int(input("Enter a number bro: "))
+if user_input > 0:
+    print("The number is positive")
+elif user_input < 0:
+    print("The number is negative:")
+else:
+    print("The number is zero")
