@@ -119,7 +119,6 @@ print(colors[-2]) # Accessing the second to the last item in the list
 
 # We can also access more than one item in the list,
 print(colors[1:3]) # Accessing a range of items in the list, (from index 1 to index 2)
-
 # NOTICE HOW IT DID NOT COUNT YELLOW, INSTEAD IT IS BLUE,
 # THE  INDEX NUMBER COUNTS THE NUMBER BEFORE IT OR AFTER IT WHEN DOING THIS COMMAND, SO IF YOU TYPE THE 3, IT WILL ONLY COUNT TO THE 2
 # SO IF YOU TYPE 1 (BLUE), IT WILL COUNT 2(GREEN) IN PRINTING A RANGE OF ITEMS IN A LIST
