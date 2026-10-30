@@ -45,7 +45,6 @@ def MainMenuGoBack():
 
 while True:
     choice = input("Choose an option from the numbers 1-3: ").strip()
-     
     if choice == "1":
         print(Overview)
         MainMenuGoBack()
@@ -123,6 +122,17 @@ if CarDiagram is True:
 # Entry point (BALINTAWAK ONLY)
 print("PS. The only entry point is Balintawak to ensure accuracy of the rate of the toll fees according to the official government website.")
 print("Your entry point is: Balintawak")
+# RFID BALANCE
+while True:
+    try:
+        balance = float(input("Enter your RFID balance: "))
+        if balance >= 0:
+            break
+        print("Balance can't be negative.")
+    except ValueError:
+        print("Invalid input! Please type a number.")
+
+# ENTRY POINT
 while True:
     choice3 = input("Continue? Y/N: ").upper()
     if choice3 == "Y":
@@ -218,6 +228,10 @@ while vehicleclass:
 
 toll_fee = toll_data[exit]*vehicle_class
 print(f"Your fee is: {round(toll_fee)}")
+
+if balance < round(toll_fee):
+    print("Insufficient RFID balance!")
+    print("Exiting the program...")
 
 # Car move
 print("\n===========================================")
