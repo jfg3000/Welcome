@@ -16,8 +16,14 @@ toll_data = {
     "Tarlac": 670.00,
 }
 # MAIN MENU CHOICES
-Overview = "Our"
-conceptInvestigation = "concept investigation"
+Overview = ("This code was made for the fulfillment of the FINAL COURSE OUTPUT of the course MCS 102a"
+    "Made by:\n"
+    "Anonuevo, Leila Czamyr\n"
+    "De Jesus, Junnel Apolo\n"
+    "Figueroa, Jefferson\n"
+    "Paloma, Cali\n"
+    "Robles, Kimberly\n")
+
 
 # MAIN MENU
 MainMenu = ("\n===============================================================\n" 
@@ -26,9 +32,8 @@ MainMenu = ("\n===============================================================\n
     "===============================================================")
 print(MainMenu)
 Choices = ("MENU:"
-           "\n1. Overview"
-           "\n2. Concept Investigation"
-           "\n3. Main Program"
+           "\n1. Overview of members"
+           "\n2. Main Program"
            "\n===============================================================")
 print(Choices)
 
@@ -121,7 +126,7 @@ if CarDiagram is True:
     print("\n===========================================\n")
 
 # Entry point (BALINTAWAK ONLY)
-print("PS. The only entry point is Balintawak to ensure accuracy of the rate of the toll fees according to the official government website.")
+print("PS. The only entry point is Balintawak to ensure better accuracy of the rate of the toll fees.")
 print("Your entry point is: Balintawak")
 while True:
     choice3 = input("Continue? Y/N: ").upper()
