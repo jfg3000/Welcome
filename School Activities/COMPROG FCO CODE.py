@@ -49,7 +49,7 @@ def MainMenuGoBack():
 
 
 while True:
-    choice = input("Choose an option from the numbers 1-3: ").strip()
+    choice = input("Choose an option from the numbers 1-2: ").strip()
      
     if choice == "1":
         print(Overview)
@@ -230,38 +230,38 @@ while vehicleclass:
         print("Invalid Input!") 
 
 toll_fee = toll_data[exit]*vehicle_class
-print(f"Your fee is: {round(toll_fee)}")
+print(f"\nYour fee is: {round(toll_fee)}")
 
 if balance < round(toll_fee):
     print("Insufficient RFID balance!")
     print("Exiting the program...")
-
+else:
 # Car move
-print("\n===========================================")
-print("\nThank you!")
-print("""   
-    [O]    <-- Green Light
-  [ 🚗 ]
-    | |             
- ---+ +--- [TOLL]  
-    | |           
-            """)
+    print("\n===========================================")
+    print("\nThank you!")
+    print("""   
+        [O]    <-- Green Light
+    [ 🚗 ]
+        | |             
+    ---+ +--- [TOLL]  
+        | |           
+                """)
 
-print("\n===========================================\n")
+    print("\n===========================================\n")
 
-Road = "_______|_______________|_______"  
+    Road = "_______|_______________|_______"  
 
 
-length = len(Road)
-counter = 25
-carmoving2 = True
-while carmoving2:
-    for j in range(25, length):
-        print("\r" + Road[0:j] + "🚘" + Road[j+1:], end="")
-        time.sleep(0.5)
-        counter += 1
-        if counter == 31:
-            carmoving2 = False
-            break
+    length = len(Road)
+    counter = 25
+    carmoving2 = True
+    while carmoving2:
+        for j in range(25, length):
+            print("\r" + Road[0:j] + "🚘" + Road[j+1:], end="")
+            time.sleep(0.5)
+            counter += 1
+            if counter == 31:
+                carmoving2 = False
+                break
 
-print("\nThank you for using the system!")
+    print("\nThank you for using the system!")
