@@ -50,7 +50,6 @@ def MainMenuGoBack():
 
 while True:
     choice = input("Choose an option from the numbers 1-2: ").strip()
-     
     if choice == "1":
         print(Overview)
         MainMenuGoBack()
@@ -234,7 +233,6 @@ print(f"\nYour fee is: {round(toll_fee)}")
 
 if balance < round(toll_fee):
     print("Insufficient RFID balance!")
-    print("Exiting the program...")
 else:
 # Car move
     print("\n===========================================")
