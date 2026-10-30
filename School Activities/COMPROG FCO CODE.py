@@ -16,8 +16,14 @@ toll_data = {
     "Tarlac": 670.00,
 }
 # MAIN MENU CHOICES
-Overview = "Our"
-conceptInvestigation = "concept investigation"
+Overview = ("\nThis code was made for the fulfillment of the FINAL COURSE OUTPUT of the course MCS 102a\n"
+    "\tMade by:\n"
+    "Anonuevo, Leila Czamyr\n"
+    "De Jesus, Junnel Apolo\n"
+    "Figueroa, Jefferson\n"
+    "Paloma, Cali\n"
+    "Robles, Kimberly\n")
+
 
 # MAIN MENU
 MainMenu = ("\n===============================================================\n" 
@@ -26,9 +32,8 @@ MainMenu = ("\n===============================================================\n
     "===============================================================")
 print(MainMenu)
 Choices = ("MENU:"
-           "\n1. Overview"
-           "\n2. Concept Investigation"
-           "\n3. Main Program"
+           "\n1. Members"
+           "\n2. Main Program"
            "\n===============================================================")
 print(Choices)
 
@@ -45,13 +50,11 @@ def MainMenuGoBack():
 
 while True:
     choice = input("Choose an option from the numbers 1-3: ").strip()
+     
     if choice == "1":
         print(Overview)
         MainMenuGoBack()
     elif choice == "2":
-        print(conceptInvestigation)
-        MainMenuGoBack()
-    elif choice == "3":
         menu1 = True
         menu2 = True
         break
@@ -120,7 +123,7 @@ if CarDiagram is True:
     print("\n===========================================\n")
 
 # Entry point (BALINTAWAK ONLY)
-print("PS. The only entry point is Balintawak to ensure accuracy of the rate of the toll fees according to the official government website.")
+print("PS. The only entry point is Balintawak to ensure better accuracy of the rate of the toll fees.")
 print("Your entry point is: Balintawak")
 # RFID BALANCE
 while True:
@@ -262,18 +265,3 @@ while carmoving2:
             break
 
 print("\nThank you for using the system!")
-
-# BROKEN LOOP, DI KO ALAM KUNG PAANO ILOOP ULIT SA START AWIT
-"""ending = True
-while ending:
-    end = input("\nThank you for using the system!, Wanna use it Again? (Y/N): ").upper()
-    if end == "Y":
-        print(MainMenu)
-        print(Choices)
-        ending = False
-        break
-    if end == "N":
-        print("Exiting the program...")
-        break
-    else:
-        print("Invalid Input! Please only type the letters Y or N.")"""
