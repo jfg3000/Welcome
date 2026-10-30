@@ -250,18 +250,3 @@ while carmoving2:
             break
 
 print("\nThank you for using the system!")
-
-# BROKEN LOOP, DI KO ALAM KUNG PAANO ILOOP ULIT SA START AWIT
-"""ending = True
-while ending:
-    end = input("\nThank you for using the system!, Wanna use it Again? (Y/N): ").upper()
-    if end == "Y":
-        print(MainMenu)
-        print(Choices)
-        ending = False
-        break
-    if end == "N":
-        print("Exiting the program...")
-        break
-    else:
-        print("Invalid Input! Please only type the letters Y or N.")"""
