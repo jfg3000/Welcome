@@ -16,8 +16,8 @@ toll_data = {
     "Tarlac": 670.00,
 }
 # MAIN MENU CHOICES
-Overview = ("This code was made for the fulfillment of the FINAL COURSE OUTPUT of the course MCS 102a"
-    "Made by:\n"
+Overview = ("\nThis code was made for the fulfillment of the FINAL COURSE OUTPUT of the course MCS 102a\n"
+    "\tMade by:\n"
     "Anonuevo, Leila Czamyr\n"
     "De Jesus, Junnel Apolo\n"
     "Figueroa, Jefferson\n"
@@ -32,7 +32,7 @@ MainMenu = ("\n===============================================================\n
     "===============================================================")
 print(MainMenu)
 Choices = ("MENU:"
-           "\n1. Overview of members"
+           "\n1. Members"
            "\n2. Main Program"
            "\n===============================================================")
 print(Choices)
@@ -49,15 +49,12 @@ def MainMenuGoBack():
 
 
 while True:
-    choice = input("Choose an option from the numbers 1-3: ").strip()
+    choice = input("Choose an option from the numbers 1-2: ").strip()
      
     if choice == "1":
         print(Overview)
         MainMenuGoBack()
     elif choice == "2":
-        print(conceptInvestigation)
-        MainMenuGoBack()
-    elif choice == "3":
         menu1 = True
         menu2 = True
         break
